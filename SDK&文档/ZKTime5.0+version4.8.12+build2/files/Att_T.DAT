@@ -1,0 +1,5 @@
+[DisabledHintIDs]
+HintId_1=1
+[Options]
+localefile=attcheckin.cht
+CloudURL=time5api.zktimecube.com
