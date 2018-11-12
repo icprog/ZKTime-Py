@@ -19,7 +19,7 @@ API 数据上传类
 
 项目引入了一下第三方库
 
-pywin32      :python 链接 C 语言类库文件
+pywin32      :python 访问windows系统API
 ```
 pip install pywin32
 ```
