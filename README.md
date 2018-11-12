@@ -51,3 +51,27 @@ web http接口服务类
 
 [zk_read](https://github.com/liucaide/ZKTime-Py/blob/master/checking/zk_read.py)
 考情数据读取 副本
+
+引入第三方
+
+[RxPY](https://github.com/ReactiveX/RxPY)      ：ReactiveX 系列Python版本
+```
+pip install rx
+```
+xlwt           ：xls 表写入 （读取使用 xlrd，未使用到）
+```
+pip install xlwt
+pip install xlrd
+```
+openpyxl       ：xlsx 表读写库
+```
+pip install openpyxl
+```
+flask          ：Web 开发微框架
+```
+pip install flask
+```
+flask_restful  ：Flask 扩展，添加了快速构建 REST APIs 的支持
+```
+pip install flask_restful
+```
