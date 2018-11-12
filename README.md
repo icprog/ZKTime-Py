@@ -1,7 +1,8 @@
 # ZKTime-Py
-中控科技考勤管理系统——考勤数据读取自动化脚本
+中控考勤管理系统——考勤数据读取自动化脚本
 ==============
 
+### 主程序文件
 
 [setup](https://github.com/liucaide/ZKTime-Py/blob/master/checking/setup.py)
 主程序入口类
@@ -44,7 +45,8 @@ pyinstaller -F setup.py
 pyinstaller --windowed --onefile --clean --noconfirm setup.py
 ```
 
-其他文件
+
+### 其他文件
 
 [http_server](https://github.com/liucaide/ZKTime-Py/blob/master/checking/http_server.py)
 web http接口服务类
