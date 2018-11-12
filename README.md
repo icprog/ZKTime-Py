@@ -1,22 +1,20 @@
 # ZKTime-Py
 中控科技考勤管理系统——考勤数据读取自动化脚本
 ==============
-各模块介绍
-==============
-[attendance_read]()
-考勤数据读取类
 
-[setup]()
+
+[setup](https://github.com/liucaide/ZKTime-Py/blob/master/checking/setup.py)
 主程序入口类
 
-[uploading]()
+[attendance_read](https://github.com/liucaide/ZKTime-Py/blob/master/checking/attendance_read.py)
+考勤数据读取类
+
+[uploading](https://github.com/liucaide/ZKTime-Py/blob/master/checking/uploading.py)
 API 数据上传类
 
-[cd_tools]()
+[cd_tools](https://github.com/liucaide/ZKTime-Py/blob/master/checking/cd_tools.py)
 工具类
 
-[dist 文件夹]()
-构建exe 存放文件夹
 
 项目引入了一下第三方库
 
@@ -46,10 +44,10 @@ pyinstaller -F setup.py
 pyinstaller --windowed --onefile --clean --noconfirm setup.py
 ```
 
-其他辅助类文件
+其他文件
 
-[http_server]()
+[http_server](https://github.com/liucaide/ZKTime-Py/blob/master/checking/http_server.py)
 web http接口服务类
 
-[zk_read]()
+[zk_read](https://github.com/liucaide/ZKTime-Py/blob/master/checking/zk_read.py)
 考情数据读取 副本
